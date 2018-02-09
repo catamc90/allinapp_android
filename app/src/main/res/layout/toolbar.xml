@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    android:visibility="visible"
+    app:contentInsetEnd="10dp"
+    app:contentInsetLeft="10dp"
+    app:contentInsetRight="10dp"
+    app:contentInsetStart="10dp"
+    app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed"
+    local:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+    local:theme="@style/ToolbarTheme">
+
+    <ImageView
+        android:id="@+id/ivToolbarLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="center_vertical"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvToolbarLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="center_vertical"
+        android:text="+ Add"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvToolbarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/ivToolbarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/ivToolbarRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_right"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="right"
+        android:gravity="center_vertical"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvToolbarRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="center_vertical"
+        android:text="+ Add"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:visibility="gone"/>
+
+</android.support.v7.widget.Toolbar>

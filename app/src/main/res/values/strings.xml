@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">All In</string>
+
+    <string name="logging_in">Logging in...</string>
+    <string name="sorry">Sorry</string>
+    <string name="success">Success</string>
+
+    <string name="please_wait">Please wait...</string>
+
+    <!--ALERT BUTTON & MESSAGES-->
+    <string name="ok">Ok</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="oops">Oops !!!</string>
+    <string name="please_check_internet">Please check internet connection.</string>
+
+    <!--MAIN ACTIVITY-->
+    <string name="monthly_goal">Monthly Goal</string>
+    <string name="more_to_go">More To Go</string>
+    <string name="notifications">Notifications</string>
+    <string name="news_update">News Update</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="feed">Feed</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="note">Note</string>
+    <string name="error_permision_denied_external_storage">Please apply permission to access storage.</string>
+    <string name="error_permision_denied_camera_storage">Please apply permission to access camera.</string>
+    <string name="error_permision_denied_camera_external_storage">Please apply permission to access camera and storage.</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="achieved">ACHIEVED</string>
+    <string name="keep_going">Keep Going</string>
+
+    <!--SETTINGS ACTIVITY-->
+    <string name="your_name">Your Name</string>
+    <string name="logout">Logout</string>
+    <string name="report_a_concern">Report a Concern</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="are_you_ready_to_logout">Are you ready to log out?</string>
+
+    <!--NEWS UPDATE ADAPTER-->
+    <string name="news">News</string>
+    <string name="unread_news">Unread News</string>
+
+    <!--YOUR PROFILE-->
+    <string name="your_profile">Your Profile</string>
+
+    <!--LOGIN ACTIVITY-->
+    <string name="all_in_login">All-In Login</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="error_no_network">Login failed. The Internet connection appears to be offline.</string>
+    <string name="unauthorized">Unauthorized</string>
+    <string name="login_failed_enter_your_all_in_username_or_password">Login failed. Enter your All-In username/password.</string>
+    <string name="something_went_wrong_try_again">Something went wrong. Try Again.</string>
+    <string name="app_version">V 1.0.0</string>
+
+    <!--NOTE ACTIVITY-->
+    <string name="send">Send</string>
+
+    <!--REPORT CONCERN ACTIVITY-->
+    <string name="type_your_message_here">Type your message here</string>
+
+
+    <!--IMAGEPICKER-->
+    <string name="album_name_all">All Media</string>
+    <string name="all_photos">All Photos</string>
+
+    <string name="button_preview">Preview</string>
+    <string name="button_apply_default">Apply</string>
+    <string name="button_apply">Apply(%1$d)</string>
+    <string name="button_back">Back</string>
+    <string name="photo_grid_capture">Camera</string>
+    <string name="empty_text">No media yet</string>
+    <string name="button_ok">OK</string>
+    <string name="button_select_default">Select</string>
+    <string name="button_select">Select(%1$d)</string>
+
+    <string name="error_over_count_default">You have reached max selectable</string>
+    <string name="error_over_count">You can only select up to %1$d media files</string>
+    <string name="error_under_quality">Under quality</string>
+    <string name="error_over_quality">Over quality</string>
+    <string name="error_file_type">Unsupported file type</string>
+    <string name="error_type_conflict">Can\'t select images and videos at the same time</string>
+    <string name="error_no_video_activity">No App found supporting video preview</string>
+
+    <string name="error_gif">x or y bound size should be at least %1$dpx and file size should be no more than %2$sM</string>
+
+    <!--MATTISE ACTIVITY-->
+    <string name="add_your_caption_here">Add your caption here</string>
+    <string name="done">Done</string>
+
+    <!--ADD VIDEO ACTVITY-->
+    <string name="choose">Choose</string>
+
+    <!--NOTE ACTIVITY-->
+    <string name="please_enter_content_to_send">Please enter content to send.</string>
+
+    <!--LEADERBOARD ACTIVITY-->
+    <string name="total_points">%d Total Points</string>
+    <string name="participator_score">Participator Score<sup>&#169;</sup></string>
+
+
+</resources>

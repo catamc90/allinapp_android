@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">@color/blue</color>
+
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+
+    <color name="gray">#95a4a7</color>
+    <color name="red">#e84b3a</color>
+
+    <color name="dark_blue">#033d91</color>
+    <color name="light_blue">#b8c3d9</color>
+    <color name="light_blue_2">#0c70e8</color>
+    <color name="light_white">#f7f4fb</color>
+    <color name="light_gray">#ccccd2</color>
+    <color name="blue">#1582ff</color>
+    <color name="light_gray_2">#f1f1f1</color>
+
+    <color name="preview_bottom_toolbar_bg">#CC000000</color>
+    <color name="preview_bottom_size">#61FFFFFF</color>
+
+    <color name="green">#025e16</color>
+
+    <color name="colorOverlay">#78ffffff</color>
+    <color name="colorAccentOverlay">#1400bcd4</color>
+
+    <color name="light_green">#abffaa</color>
+    <color name="light_gray_3">#b8b8b8</color>
+
+    <color name="gold">#E6edc966</color>
+    <color name="silver">#E6bdbdba</color>
+    <color name="bronze">#E6ba7033</color>
+    <color name="trans_white">#4dffffff</color>
+
+    <color name="dark_blue_2">#305698</color>
+    <color name="medium_light_green">#00b14e</color>
+    <color name="medium_light_green_2">#6bbb45</color>
+    <color name="dim_light_white">#fbfbfb</color>
+    <color name="dim_light_gray">#dddcda</color>
+    <color name="white_2">#f2f3f8</color>
+
+    <color name="light_gray_4">#d7d7d8</color>
+    <color name="ash_gray">#949494</color>
+
+    <color name="dark_blue_3">#4357a5</color>
+    <color name="medium_light_green_3">#07b04e</color>
+    <color name="slat_gray">#7f7f7f</color>
+
+    <color name="light_gray_5">#b5b2b2</color>
+    <color name="dark_red">#ed1c25</color>
+
+    <color name="light_gray_6">#4a494a</color>
+    <color name="light_gray_7">#959595</color>
+    <color name="light_gray_8">#CECCCF</color>
+
+</resources>

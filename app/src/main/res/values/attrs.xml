@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension"/>
+        <attr name="civ_border_color" format="color"/>
+        <attr name="civ_border_overlay" format="boolean"/>
+        <!-- {@deprecated Use civ_circlebackground_color instead.} -->
+        <attr name="civ_fill_color" format="color"/>
+        <attr name="civ_circle_background_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircularProgressBar">
+        <attr name="cpb_progress" format="integer" />
+        <attr name="cpb_progressbar_color" format="color" />
+        <attr name="cpb_background_progressbar_color" format="color" />
+        <attr name="cpb_progressbar_width" format="dimension" />
+        <attr name="cpb_background_progressbar_width" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AToolbar">
+        <attr name="at_style" format="integer" />
+    </declare-styleable>
+
+    <attr name="toolbar" format="reference"/>
+    <attr name="album.dropdown.title.color" format="reference|color"/>
+    <attr name="album.dropdown.count.color" format="reference|color"/>
+    <attr name="album.element.color" format="reference|color"/>
+    <attr name="album.thumbnail.placeholder" format="reference|color"/>
+    <attr name="album.emptyView" format="reference"/>
+    <attr name="album.emptyView.textColor" format="reference|color"/>
+    <attr name="listPopupWindowStyle" format="reference"/>
+    <attr name="page.bg" format="reference|color"/>
+    <attr name="bottomToolbar.bg" format="reference|color"/>
+    <attr name="bottomToolbar.preview.textColor" format="reference|color"/>
+    <attr name="bottomToolbar.apply.textColor" format="reference|color"/>
+    <attr name="preview.bottomToolbar.back.textColor" format="reference|color"/>
+    <attr name="preview.bottomToolbar.apply.textColor" format="reference|color"/>
+    <attr name="item.placeholder" format="reference|color"/>
+    <attr name="item.checkCircle.backgroundColor" format="reference|color"/>
+    <attr name="item.checkCircle.borderColor" format="reference|color"/>
+    <attr name="capture.textColor" format="reference|color"/>
+
+    <declare-styleable name="EasyVideoPlayer">
+
+        <attr name="evp_source" format="string" />
+
+        <attr name="evp_leftAction" format="enum">
+            <enum name="none" value="0" />
+            <enum name="restart" value="1" />
+            <enum name="retry" value="2" />
+        </attr>
+
+        <attr name="evp_rightAction" format="enum">
+            <enum name="none" value="3" />
+            <enum name="submit" value="4" />
+            <enum name="customLabel" value="5" />
+        </attr>
+
+        <attr name="evp_customLabelText" format="string" />
+        <attr name="evp_retryText" format="string" />
+        <attr name="evp_submitText" format="string" />
+        <attr name="evp_bottomText" format="string" />
+
+        <attr name="evp_restartDrawable" format="reference" />
+        <attr name="evp_playDrawable" format="reference" />
+        <attr name="evp_pauseDrawable" format="reference" />
+
+        <attr name="evp_hideControlsOnPlay" format="boolean" />
+        <attr name="evp_autoPlay" format="boolean" />
+
+        <attr name="evp_disableControls" format="boolean" />
+
+        <attr name="evp_themeColor" format="color" />
+
+        <attr name="evp_autoFullscreen" format="boolean" />
+
+        <attr name="evp_loop" format="boolean" />
+
+    </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.allin.activity.AddVideoActivity">
+
+    <com.allin.videoplayer.EasyVideoPlayer
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:evp_autoFullscreen="false"
+        app:evp_autoPlay="false"
+        app:evp_customLabelText="Hello!"
+        app:evp_disableControls="false"
+        app:evp_hideControlsOnPlay="true"
+        app:evp_leftAction="restart"
+        app:evp_pauseDrawable="@drawable/evp_action_pause"
+        app:evp_playDrawable="@drawable/evp_action_play"
+        app:evp_retryText="@string/cancel"
+        app:evp_rightAction="submit"
+        app:evp_source="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+        app:evp_submitText="@string/choose"/>
+</android.support.constraint.ConstraintLayout>

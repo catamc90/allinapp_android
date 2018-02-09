@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_stroke_width">7dp</dimen>
+    <dimen name="default_background_stroke_width">3dp</dimen>
+
+    <dimen name="logo_width">889px</dimen>
+    <dimen name="logo_height">158px</dimen>
+
+    <!-- MAIN ACTIVITY DEVICE SPECIFIC DESIGN -->
+    <dimen name="padding_ll_setting">10dp</dimen>
+
+    <dimen name="padding_company_logo">0dp</dimen>
+    <dimen name="margin_company_logo">8dp</dimen>
+
+    <dimen name="padding_ll_user_picture">12dp</dimen>
+    <dimen name="width_circle_image">100dp</dimen>
+    <dimen name="height_circle_image">100dp</dimen>
+
+    <dimen name="width_circle_progressbar">130dp</dimen>
+    <dimen name="height_circle_progressbar">130dp</dimen>
+    <dimen name="width_background_progressbar">10dp</dimen>
+    <dimen name="width_progressbar">10dp</dimen>
+    <dimen name="size_monthly_goal_text">20sp</dimen>
+    <dimen name="size_monthly_goal">26sp</dimen>
+    <dimen name="size_more_to_go">18sp</dimen>
+    <dimen name="size_participator_score">52sp</dimen>
+
+    <dimen name="padding_ll_notification_news">12dp</dimen>
+    <dimen name="width_count_indicator">36dp</dimen>
+    <dimen name="height_count_indicator">36dp</dimen>
+    <dimen name="margin_noti_news_count">10dp</dimen>
+    <dimen name="size_notification_news_text">16sp</dimen>
+    <dimen name="size_notification_news_count">18sp</dimen>
+
+    <dimen name="padding_ll_add_contents">12dp</dimen>
+
+    <dimen name="padding_ll_bottom_buttons">14dp</dimen>
+    <dimen name="width_bottom_buttons">132dp</dimen>
+    <dimen name="padding_top_bottom_buttons">8dp</dimen>
+    <dimen name="padding_bot_bottom_buttons">8dp</dimen>
+    <dimen name="padding_left_bottom_buttons">12dp</dimen>
+    <dimen name="padding_right_bottom_buttons">12dp</dimen>
+
+    <dimen name="size_username">26sp</dimen>
+
+</resources>
