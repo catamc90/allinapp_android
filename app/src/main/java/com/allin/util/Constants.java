@@ -29,6 +29,9 @@ public class Constants {
         public static final String URL_GET_ASSET = BASE_URL + "asset";
         public static final String URL_MESSAGE_READ = URL_MESSAGE + "/%s/read";
 
+        public static final String URL_ALERTS = BASE_URL + "alerts";
+        public static final String URL_ALERTS_READ = URL_ALERTS + "/%s/read";
+
         public static final String URL_USER_ME = URL_USER + "me";
         public static final String URL_LEADERBOARD = URL_USER + "leaderboard";
         public static final String URL_GET_USER_IMAGE = URL_USER + "%s/avatar";

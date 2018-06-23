@@ -135,11 +135,11 @@ public class NotificationActivity extends BaseActivity implements OnViewMethodIn
             RequestParams params = new RequestParams();
 
             Timber.e("NOTIFICATION READ : API_START");
-            Timber.e("NOTIFICATION READ URL : %s", Constants.URLs.URL_MESSAGE);
+            Timber.e("NOTIFICATION READ URL : %s", Constants.URLs.URL_ALERTS_READ);
             Timber.e("NOTIFICATION READ PARAMS : %s", params.toString());
 
 
-            apiManager.patchWithAuth(mContext, String.format(Constants.URLs.URL_MESSAGE_READ, alData.get(position).messageId), params, new APIManager.APIResponse() {
+            apiManager.patchWithAuth(mContext, String.format(Constants.URLs.URL_ALERTS_READ, alData.get(position).messageId), params, new APIManager.APIResponse() {
                 @Override
                 public void onSuccess(int statusCode, String result) {
                     Timber.e("NOTIFICATION READ SUCCESS_RESPONSE : " + statusCode + " : " + result);

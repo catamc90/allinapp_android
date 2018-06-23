@@ -146,9 +146,6 @@ public class MainActivity extends BaseActivity implements OnClickListener, OnVie
                     }
                 });
 
-//        getNotificationAPI();
-//        getNewsAPI();
-
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         Timber.e("MEASURE WIDTH : " + displayMetrics.widthPixels + " : " + Utils.pxToDp(displayMetrics.widthPixels)
